@@ -50,7 +50,7 @@ Cette application fournit les prévisions météorologiques quotidiennes pour un
 3. Configurez les variables d'environnement dans front/.env :
 
    ```bash
-   VITE_API_URL=your_api_key_here
+   VITE_API_URL={your_api_key_here}http://localhost:8003
 
 4. Démarrez le serveur de développement Vite 
 
