@@ -24,7 +24,7 @@ Cette application fournit les prévisions météorologiques quotidiennes pour un
    ```bash
    composer install
 
-3. Configurez les variables d'environnement dans .env :
+3. Configurez les variables d'environnement dans back/.env :
 
    ```bash
    OPENWEATHERMAP_API_KEY=your_api_key_here
@@ -47,8 +47,12 @@ Cette application fournit les prévisions météorologiques quotidiennes pour un
    ```bash
    npm install
 
-3. Démarrez le serveur de développement Vite 
+3. Configurez les variables d'environnement dans front/.env :
+
+   ```bash
+   VITE_API_URL=your_api_key_here
+
+4. Démarrez le serveur de développement Vite 
 
    ```bash
    npm run dev
-

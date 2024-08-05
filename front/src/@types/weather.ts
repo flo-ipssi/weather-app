@@ -8,14 +8,19 @@ export interface Temperature {
 }
 
 export interface Weather {
-  main: string;
-  description: string;
+    id: number;
+    main: string;
+    description: string;
+    icon: string;
 }
 
+export interface Wind {
+    speed: number;
+    deg: number;
+}
 export interface WeatherData {
-  date: string;
   main: Temperature;
   weather: Weather;
-  humidity: number;
-  wind_speed: number;
+  name: string;
+  wind: Wind;
 }
